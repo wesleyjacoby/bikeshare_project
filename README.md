@@ -49,3 +49,10 @@ All data files provided by Udacity.
 * [pandas](https://pandas.pydata.org/) - A Python library that was used.
 * [time](https://docs.python.org/3/library/time.html) - A Python library that was used.
 * [humanfriendly](https://humanfriendly.readthedocs.io/en/latest/#api-documentation) - A Python library that was used, specifically, the format_timespan module.
+
+# Credits:
+* [Python Documentation](https://docs.python.org/3/) - Official Python Documentation.
+* [Pandas Documentation](https://pandas.pydata.org/docs/) - Official Pandas Documentation.
+* [Humanfriendly Documentation](https://humanfriendly.readthedocs.io/en/latest/#api-documentation) - Official humanfriendly Documentation.
+* [Udacity Programming for Data Science Nanodegree](https://www.udacity.com/) - Excellent course and material.
+* [Aritra96](https://github.com/Aritra96) - Where I took inspiration to write this README document.
