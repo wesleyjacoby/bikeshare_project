@@ -16,7 +16,7 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']
 
 
-def proceed():
+def next_stat():
     """Waits for the user to press enter before loading more statistics"""
     
     input('Press Enter to load more statistics...')
@@ -318,11 +318,11 @@ def main():
         df = load_data(city, month, day)
         
         time_stats(df, city, month, day)
-        proceed()
+        next_stat()
         station_stats(df)
-        proceed()
+        next_stat()
         trip_duration_stats(df)
-        proceed()
+        next_stat()
         user_stats(df, city)
         display_data(df, 0)
     
