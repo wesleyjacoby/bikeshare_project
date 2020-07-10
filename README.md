@@ -30,3 +30,7 @@ Once input has been received from the user, the program prints the following det
 The user is then asked if they'd like to view the raw data, five rows at a time.
 
 Finally, the user is given the choice of restarting the program or not.
+
+# Software Requirements:
+* Programming Language: Python 3.7.7
+* Libraries: time, pandas, humanfriendly
