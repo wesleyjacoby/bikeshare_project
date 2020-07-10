@@ -43,3 +43,9 @@ Finally, the user is given the choice of restarting the program or not.
 * washington.csv - Dataset containing all bike share information for the city of Washington.
 
 All data files provided by Udacity.
+
+# Built With:
+* [Python 3.7.7](https://www.python.org/) - The programming language used.
+* [pandas](https://pandas.pydata.org/) - A Python library that was used.
+* [time](https://docs.python.org/3/library/time.html) - A Python library that was used.
+* [humanfriendly](https://humanfriendly.readthedocs.io/en/latest/#api-documentation) - A Python library that was used, specifically, the format_timespan module.
