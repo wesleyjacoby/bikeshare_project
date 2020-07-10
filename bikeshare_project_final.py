@@ -186,7 +186,7 @@ def time_stats(df, city, month, day):
     
 def station_stats(df):
     """
-    Displays statistics on the most popular stations and trip.
+    Displays statistics for the most popular stations and trip.
     
     Args:
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
@@ -214,7 +214,7 @@ def station_stats(df):
     
 def trip_duration_stats(df):
     """
-    Displays statistics on the total and average trip duration.
+    Displays statistics for the total and average trip duration.
     
     Args:
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
@@ -241,7 +241,7 @@ def trip_duration_stats(df):
     
 def user_stats(df, city):
     """
-    Displays statistics on bikeshare users.
+    Displays statistics for bike share users.
     
     Args:
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
@@ -283,8 +283,8 @@ def user_stats(df, city):
     
 def display_data(df, current_row):
     """
-    Displays five lines of data if selected by the user.
-    After displaying five lines, the user is asked if they would like to see another five.
+    Displays five rows of data if selected by the user.
+    After displaying five rows, the user is asked if they would like to see another five.
     Continues asking until they select no.
     
     Args:
@@ -292,7 +292,7 @@ def display_data(df, current_row):
         (int) current_row - The starting row. Initialised to zero.
         
     Returns:
-        If the user selects yes, then this function returns the next five lines
+        If the user selects yes, then this function returns the next five rows
         of the dataframe and then asks the question again by calling this
         function again.
         If the user selects no, then this function returns no value.
