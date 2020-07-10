@@ -34,3 +34,12 @@ Finally, the user is given the choice of restarting the program or not.
 # Software Requirements:
 * Programming Language: Python 3.7.7
 * Libraries: time, pandas, humanfriendly
+
+# Project Data:
+* chicago.csv - Dataset containing all bike share information for the city of Chicago.
+
+* new_york_city.csv - Dataset containing all bike share information for the city of New York.
+
+* washington.csv - Dataset containing all bike share information for the city of Washington.
+
+All data files provided by Udacity.
