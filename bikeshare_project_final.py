@@ -16,7 +16,7 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']
 
 
-def proceed():
+def next_stat():
     """Waits for the user to press enter before loading more statistics"""
     
     input('Press Enter to load more statistics...')
@@ -85,7 +85,16 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     
-    print('\nHello! Let\'s explore some US bikeshare data!')
+    current_time = int(time.strftime('%H'))   
+
+    if current_time < 12:
+        greeting = 'Good Morning'
+    elif current_time > 12 and current_time < 18:
+        greeting = 'Good Afternoon'
+    else:
+        greeting = 'Good Evening'
+
+    print(f'\n{greeting}! Let\'s explore some US bike share data!\n')
     
     city = get_city()
     month = get_month()
@@ -318,11 +327,11 @@ def main():
         df = load_data(city, month, day)
         
         time_stats(df, city, month, day)
-        proceed()
+        next_stat()
         station_stats(df)
-        proceed()
+        next_stat()
         trip_duration_stats(df)
-        proceed()
+        next_stat()
         user_stats(df, city)
         display_data(df, 0)
     
