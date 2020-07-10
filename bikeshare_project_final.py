@@ -85,7 +85,16 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     
-    print('\nHello! Let\'s explore some US bikeshare data!')
+    current_time = int(time.strftime('%H'))   
+
+    if current_time < 12:
+        greeting = 'Good Morning'
+    elif current_time > 12 and current_time < 18:
+        greeting = 'Good Afternoon'
+    else:
+        greeting = 'Good Evening'
+
+    print(f'\n{greeting}! Let\'s explore some US bike share data!\n')
     
     city = get_city()
     month = get_month()
