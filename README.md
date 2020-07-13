@@ -6,7 +6,15 @@ In this project, I made use of Python to explore data related to bike share syst
 
 ### How To Run The Program:
 Ensure you have Python 3.7 or above installed, either from [Anaconda](https://www.anaconda.com/) or the official [Python](https://www.python.org/) website.
-Then run *python bikeshare_project_final.py* in your terminal if you're on Windows, or *python 3 bikeshare_project_final.py* if you're on a Mac.
+Then run:
+```
+python bikeshare_project_final.py
+```
+in your terminal if you're on Windows, or:
+```
+python 3 bikeshare_project_final.py
+```
+if you're on a Mac.
 
 ### Program Details:
 The program asks the user which of the three cities they'd like to analyse (Chicago, New York City, or Washington). It then asks if they'd like to further filter the information by month (January - June) and day (Monday - Sunday). The user also has the option to apply no filters.
